@@ -1,4 +1,4 @@
-site_name: lyx
+site_name: @lyx🍀
 site_description: 在线云文档
 site_author: lyx
 copyright: Copyright &copy; 2022 - 2099 @lyx
@@ -6,6 +6,7 @@ site_url: https://mkdocs.lyx2099.top/
 repo_url: https://github.com/lyx2099/mkdocs
 repo_name: mkdocs
 edit_uri: ""
+
 # 主题配置
 theme:
   name: material
