@@ -1,4 +1,4 @@
-site_name: 🍀@lyx
+site_name: lyx
 site_description: 在线云文档
 site_author: lyx
 copyright: Copyright &copy; 2022 - 2099 @lyx
@@ -44,7 +44,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-        
+
   features:
     #- navigation.instant # 点击内部链接时，不用全部刷新页面
     - navigation.tracking # 在url中使用标题定位锚点
@@ -134,7 +134,7 @@ nav:
   - 文档介绍: "index.md"
   - "在线云文档":
       - "静态云文档":
-          - mkdoc: "index.md"
+          - mkdoc: "01 什么是Numpy.md"
           - docsify: "index.md"
       - "动态云文档":
           - leanote: "index.md"
