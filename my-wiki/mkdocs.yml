@@ -55,11 +55,14 @@ theme:
     - navigation.indexes # 指定节点index pages ，跟instant不兼容
     - toc.integrate # 右侧生产目录
     - toc.integrate #导航集成
+    - toc.follow  # 侧边栏自动滚动
     - navigation.top # 一键回顶部
     - header.autohide
     - search.share # 搜索分享
     - search.suggest # 搜索建议
     - search.highlight #搜索高亮
+    - navigation.instant
+    - navigation.path
 
 plugins:
   - search:
