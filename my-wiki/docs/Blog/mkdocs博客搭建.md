@@ -239,6 +239,7 @@ nav:
 
 ## 8.博客内容
 为了提供额外的上下文，可以通过在短代码后面直接使用 title="<custom title>" 选项将自定义标题添加到代码块中，例如显示文件名：
+```text
 ``` py title="bubble_sort.py"
 def bubble_sort(items):
     for i in range(len(items)):
@@ -246,6 +247,19 @@ def bubble_sort(items):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
+```
+
+``` py title="bubble_sort.py"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+
+插入图片测试：
+![插入图片测试](H:\壁纸图片\笔记本壁纸\wallhaven-6dmyyl.png)
 
 
 ## END

@@ -56,10 +56,8 @@ theme:
     - content.code.annotate # 代码注释
 
 plugins:
-  - table-reader
   - search:
       jieba_dict: user_dict.txt
-
 
 # 图标
 icon:
@@ -130,7 +128,7 @@ extra:
       link: mailto:leeyx0913@foxmail.com
       name: Email me
   annotate:
-      json: [.s2]
+    json: [.s2]
 
 nav:
   - Python:
