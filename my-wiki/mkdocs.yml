@@ -21,7 +21,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -43,7 +43,7 @@ theme:
     - navigation.indexes # 指定节点index pages ，跟instant不兼容
     - toc.integrate # 右侧生产目录
     - toc.integrate #导航集成
-    - toc.follow  # 侧边栏自动滚动
+    - toc.follow # 侧边栏自动滚动
     - navigation.top # 一键回顶部
     - header.autohide
     - search.share # 搜索分享
@@ -83,7 +83,7 @@ markdown_extensions:
   - tables
   - pymdownx.tasklist:
       custom_checkbox: true
-      auto_title: true  # 显示编程语言名称
+      # auto_title: true  # 显示编程语言名称
   - attr_list
   - md_in_html
   - meta
@@ -93,8 +93,8 @@ markdown_extensions:
   - pymdownx.caret #下划线
   - pymdownx.mark #文本高亮
   - pymdownx.tilde #删除线
-  - pymdownx.arithmatex:  # latex支持
-        generic: true
+  - pymdownx.arithmatex: # latex支持
+      generic: true
   - toc:
       permalink: true # 固定标题位置为当前位置
 
@@ -128,15 +128,15 @@ extra:
 # 文档区
 nav:
   - Python:
-    - 数据分析:
-      - Numpy: Python/DataAnalysis/Numpy.md
+      - 数据分析:
+          - Numpy: Python/DataAnalysis/Numpy.md
   - 文学:
-    - 历史: 
-      - 唐史: literary/Tang.md
-    - 诗词:
-      - 唐诗: literary/TangPoetry.md
+      - 历史:
+          - 唐史: literary/Tang.md
+      - 诗词:
+          - 唐诗: literary/TangPoetry.md
   - 旅行:
       - 家乡: trip/GZ.md
       - 广东: trip/GuangDong.md
   - 关于:
-    - 个人履历: about/geren.md 
+      - 个人履历: about/geren.md
