@@ -2,8 +2,8 @@ site_name: lyx
 site_description: python selenium 数据分析
 site_author: lyx
 copyright: Copyright &copy; 2023 - 2099
-site_url: https://mkdocs.lyx2099.top/
-repo_url: https://github.com/lyx2099/mkdocs
+site_url: https://lyx2099.github.io/WIKI
+repo_url: https://github.com/lyx2099/WIKI
 repo_name: mkdocs
 edit_uri: ""
 
@@ -83,6 +83,7 @@ markdown_extensions:
   - tables
   - pymdownx.tasklist:
       custom_checkbox: true
+      auto_title: true  # 显示编程语言名称
   - attr_list
   - md_in_html
   - meta
@@ -92,6 +93,10 @@ markdown_extensions:
   - pymdownx.caret #下划线
   - pymdownx.mark #文本高亮
   - pymdownx.tilde #删除线
+  - pymdownx.arithmatex:  # latex支持
+        generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
 
 # 自定义css
 extra_css:
@@ -120,39 +125,18 @@ extra:
       link: mailto:leeyx0913@foxmail.com
       name: Email me
 
-  analytics: 
-      feedback:
-        title: Was this page helpful?
-        ratings:
-          - icon: material/emoticon-happy-outline
-            name: This page was helpful
-            data: 1
-            note: >-
-              Thanks for your feedback!
-          - icon: material/emoticon-sad-outline
-            name: This page could be improved
-            data: 0
-            note: >- 
-              Thanks for your feedback! Help us improve this page by
-              using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-
-
 # 文档区
 nav:
-  - 文档介绍: "index.md"
-  - "在线云文档":
-      - "静态云文档":
-          - mkdoc: "01 什么是Numpy.md"
-          - docsify: "index.md"
-      - "动态云文档":
-          - leanote: "index.md"
-          - mrdoc: "index.md"
-          - showdoc: "index.md"
-  - 个人博客搭建:
-      - "静态博客":
-          - hexo: "index.md"
-          - vuepress: "index.md"
-      - "动态博客":
-          - halo: "index.md"
-          - worldpress: "index.md"
-  - 开发记录: "index.md"
+  - Python:
+    - 数据分析:
+      - Numpy: Python/DataAnalysis/Numpy.md
+  - 文学:
+    - 历史: 
+      - 唐史: literary/Tang.md
+    - 诗词:
+      - 唐诗: literary/TangPoetry.md
+  - 旅行:
+      - 家乡: trip/GZ.md
+      - 广东: trip/GuangDong.md
+  - 关于:
+    - 个人履历: about/geren.md 
