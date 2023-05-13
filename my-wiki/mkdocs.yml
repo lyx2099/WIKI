@@ -1,4 +1,4 @@
-site_name: @lyx🍀
+site_name: 🍀@lyx
 site_description: 在线云文档
 site_author: lyx
 copyright: Copyright &copy; 2022 - 2099 @lyx
@@ -12,18 +12,39 @@ theme:
   name: material
   language: en
   search_index_only: true
+  # 调色板
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   primary: red    # 设置导航条的颜色
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+        # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material//weather-sunny
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: teal
       scheme: slate
       toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+        icon: material/brightness-4
+        name: Switch to system preference
+        
   features:
     #- navigation.instant # 点击内部链接时，不用全部刷新页面
     - navigation.tracking # 在url中使用标题定位锚点
