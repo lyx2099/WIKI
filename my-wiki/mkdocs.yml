@@ -130,6 +130,8 @@ nav:
   - Python:
       - 数据分析:
           - Numpy: Python/DataAnalysis/01 什么是Numpy.md
+      - 自动化:
+          - Selenium: Python/AutoTest/01 什么是Numpy.md
   - 文学:
       - 历史:
           - 唐史: literary/Tang.md
