@@ -1,7 +1,7 @@
 site_name: lyx
-site_description: 在线云文档
+site_description: python selenium 数据分析
 site_author: lyx
-copyright: Copyright &copy; 2022 - 2099 @lyx
+copyright: Copyright &copy; 2023 - 2099
 site_url: https://mkdocs.lyx2099.top/
 repo_url: https://github.com/lyx2099/mkdocs
 repo_name: mkdocs
@@ -14,18 +14,6 @@ theme:
   search_index_only: true
   # 调色板
   palette:
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   toggle:
-    #     icon: material/brightness-7
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   primary: red    # 设置导航条的颜色
-    #   scheme: slate
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to light mode
-        # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
@@ -124,13 +112,30 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lyx2099
-      name: github
+      name: Visit my github
     - icon: fontawesome/brands/slack
-      link: https://lyx2099.github.io
-      name: myblog
+      link: https://lyx2099.github.io/WIKI
+      name: Visit myblog
     - icon: fontawesome/solid/paper-plane
       link: mailto:leeyx0913@foxmail.com
-      name: 邮箱地址
+      name: Email me
+
+  analytics: 
+      feedback:
+        title: Was this page helpful?
+        ratings:
+          - icon: material/emoticon-happy-outline
+            name: This page was helpful
+            data: 1
+            note: >-
+              Thanks for your feedback!
+          - icon: material/emoticon-sad-outline
+            name: This page could be improved
+            data: 0
+            note: >- 
+              Thanks for your feedback! Help us improve this page by
+              using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
 
 # 文档区
 nav:
