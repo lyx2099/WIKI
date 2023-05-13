@@ -1,3 +1,47 @@
+[TOC]
+
+## 1.安装 mkdocs
+```python
+pip install mkdocs
+```
+
+
+
+## 2.创建项目
+
+新建一个文件夹，例如我的是 `WIKI` 。在 `WIKI` 文件夹下新建一个项目,比如 `my-wiki`。
+```python
+mkdocs new 项目名
+mkdocs new my-wiki
+```
+
+
+
+## 3.文档预览
+
+```shell
+cd wiki
+mkdocs serve
+```
+
+
+
+## 4.更换主题
+
+```python
+pip install mkdocs-material mkdocs-windmill
+```
+在 mkdocs.yml 里进行配置
+```yml
+theme:
+  name: 'material'
+```
+
+
+
+## 5.进行 mkdocs.yml 配置
+
+```yml
 site_name: lyx
 site_description: python selenium 数据分析
 site_author: lyx
@@ -125,21 +169,81 @@ extra:
       link: mailto:leeyx0913@foxmail.com
       name: Email me
 
+# 文档区
 nav:
   - Python:
       - 数据分析:
-          - Numpy: Python/DataAnalysis/Numpy教程.md
+          - Numpy: Python/DataAnalysis/01 什么是Numpy.md
       - 自动化:
-          - Selenium: Python/AutoTest/Selenium教程.md
+          - Selenium: Python/AutoTest/01 什么是Numpy.md
   - 文学:
       - 历史:
-          - 唐史: Literary/History/Tang.md
+          - 唐史: literary/Tang.md
       - 诗词:
-          - 唐诗: Literary/TangPoetry/TangPoetry.md
+          - 唐诗: literary/TangPoetry.md
   - 旅行:
-      # - 家乡: Trip/GZ.md
-      - 广东: Trip/GuangDong.md
-  - 帮助:
-      - 博客搭建: Blog/mkdocs博客搭建.md
+      - 家乡: trip/GZ.md
+      - 广东: trip/GuangDong.md
   - 关于:
-      - 个人履历: About/Me.md
+      - 个人履历: about/geren.md
+```
+
+
+
+## 6.部署站点
+
+在 github 上创建一个仓库，例如我的是 `git@github.com:lyx2099/WIKI.git`。在 `WIKI` 目录下执行以下命令：
+```shell
+git init
+git add .
+git commit -m 'xxx'
+git remote add origin git@github.com:lyx2099/WIKI.git
+git push -u origin master
+```
+这样 `WIKI` 目录下的 `my-wiki` 项目将会被推送到远程仓库的 `master` 分支。  
+进入到 `my-wiki` 目录，执行命令：`mkdocs gh-deploy` 会将内人部署到 github。  
+稍等一会，访问 [https://lyx2099.github.io/WIKI/](https://lyx2099.github.io/WIKI/) 就可以看到在线博客了。
+
+
+
+## 7.如何构建本地博客
+
+首先，博客的导航是在 `mkdocs.yml` 的 `nav` 里面进行设置的，如下：
+```yml
+nav:
+  - Python:
+      - 数据分析:
+          - Numpy: Python/DataAnalysis/01 什么是Numpy.md
+      - 自动化:
+          - Selenium: Python/AutoTest/01 什么是Numpy.md
+  - 文学:
+      - 历史:
+          - 唐史: literary/Tang.md
+      - 诗词:
+          - 唐诗: literary/TangPoetry.md
+  - 旅行:
+      - 家乡: trip/GZ.md
+      - 广东: trip/GuangDong.md
+  - 关于:
+      - 个人履历: about/geren.md
+```
+
+在线访问时的效果如下：
+
+![image-20230513162141282](https://img2023.cnblogs.com/blog/2056203/202305/2056203-20230513162143508-1792648189.png)
+
+其次，所有的文档都应该放在 `docs` 目录下，且每个小分类都应该有一个对应的文件夹，如下：
+
+![image-20230513162449163](https://img2023.cnblogs.com/blog/2056203/202305/2056203-20230513162449781-1101607566.png)
+
+
+
+## END
+
+参考文档：
+
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+- [mkdocs部署教程（图文）](https://blog.csdn.net/qq_41245706/article/details/127740880)
+- [mkdocs部署教程（视频）](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.337.search-card.all.click&vd_source=c8c8e120161f762ff543dc30b5b87ff2)
+- [mkdocs美化](https://juejin.cn/post/7066641709198737416#heading-5)

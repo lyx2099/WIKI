@@ -5,20 +5,8 @@ hide:
 ---
 
 
-# Welcome to MkDocs
+# 欢迎来到我的个人主页
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这里主要记录了我学习与生活中的一些有用和有趣的事情。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+如果你对我的内容感兴趣，请浏览我的 github 主页，帮我点一个 star⭐⭐ 吧，蟹蟹~
