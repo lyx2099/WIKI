@@ -1,4 +1,4 @@
-[TOC]
+
 
 ## 1.安装 mkdocs
 ```python
@@ -236,6 +236,16 @@ nav:
 
 ![image-20230513162449163](https://img2023.cnblogs.com/blog/2056203/202305/2056203-20230513162449781-1101607566.png)
 
+
+## 8.博客内容
+为了提供额外的上下文，可以通过在短代码后面直接使用 title="<custom title>" 选项将自定义标题添加到代码块中，例如显示文件名：
+``` py title="bubble_sort.py"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
 
 
 ## END
