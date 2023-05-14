@@ -1,4 +1,4 @@
-site_name: 业精于勤荒于嬉，行成于思毁于随。
+site_name: 自由人
 site_description: 个人主页
 site_author: lyx
 copyright: Copyright &copy; 2023 - 2099
@@ -14,7 +14,7 @@ theme:
   language: en
   search_index_only: true
   font:
-    text: 微软雅黑
+    text: 宋体
     code: Roboto Mono
   # 调色板
   palette:
