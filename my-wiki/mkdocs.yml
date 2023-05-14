@@ -14,7 +14,7 @@ theme:
   language: en
   search_index_only: true
   font:
-    text: 仿宋
+    text: 微软雅黑
     code: Roboto Mono
   # 调色板
   palette:
