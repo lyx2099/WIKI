@@ -6,13 +6,16 @@ site_url: https://lyx2099.github.io/WIKI
 repo_url: https://github.com/lyx2099/WIKI
 repo_name: WIKI
 edit_uri: ""
-use_directory_urls: false
+# use_directory_urls: false
 
 # 主题配置
 theme:
   name: material
   language: en
   search_index_only: true
+  font:
+    text: 仿宋
+    code: Roboto Mono
   # 调色板
   palette:
     - media: "(prefers-color-scheme)"
