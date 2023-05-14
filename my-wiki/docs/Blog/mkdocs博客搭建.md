@@ -257,8 +257,11 @@ def bubble_sort(items):
 ```
 
 
-插入图片测试：
-![插入图片测试](my-wiki\docs\microsatsFigures\wallhaven-jxw8vy.jpg)
+插入图片测试请使用下面的方法，在 docs 目录下新建一个文件夹用于存放图片，这里我的是：
+```text
+<img src="../Imgs/wallhaven-jxw8vy.jpg">
+![插入图片测试](../Imgs/wallhaven-jxw8vy.jpg)
+```
 
 
 ## END

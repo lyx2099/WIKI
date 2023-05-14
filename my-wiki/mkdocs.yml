@@ -1,4 +1,4 @@
-site_name: lyx
+site_name: 业精于勤荒于嬉，行成于思毁于随。
 site_description: 个人主页
 site_author: lyx
 copyright: Copyright &copy; 2023 - 2099
@@ -6,6 +6,7 @@ site_url: https://lyx2099.github.io/WIKI
 repo_url: https://github.com/lyx2099/WIKI
 repo_name: WIKI
 edit_uri: ""
+use_directory_urls: false
 
 # 主题配置
 theme:
@@ -136,6 +137,8 @@ nav:
           - Numpy: Python/DataAnalysis/Numpy教程.md
       - 自动化:
           - Selenium: Python/AutoTest/Selenium教程.md
+  - SoftWareTest:
+      - InterView: SoftWareTest/Interview/InterviewsSummary.md
   - 文学:
       - 历史:
           - 唐史: Literary/History/Tang.md
