@@ -140,6 +140,8 @@ nav:
           - Numpy: Python/DataAnalysis/Numpy教程.md
       - 自动化:
           - Selenium: Python/AutoTest/Selenium教程.md
+      - openpyxl:
+          - openpyxl: Python/openpyxl/openpyxl.md
   - SoftWareTest:
       - InterView: SoftWareTest/Interview/InterviewsSummary.md
   - 文学:
