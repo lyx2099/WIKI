@@ -640,7 +640,7 @@ There is also support for legacy indexed colours as well as themes and tints.
 
 ### Indexed Colours
 
-![image-20230520200855722](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cimage-20230520200855722.png)
+![image-20230520200855722](../../Imgs/image-20230520200855722.png)
 
 The indices 64 and 65 cannot be set and are reserved for the system foreground and background colours respectively.
 
@@ -1738,7 +1738,7 @@ wb.save("filtered.xlsx")
 
 This will add the relevant instructions to the file but will **neither actually filter nor sort**.
 
-!["Filter and sort prepared but not executed for a range of cells"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cfilters.png)
+!["Filter and sort prepared but not executed for a range of cells"](../../Imgs/filters.png)
 
 ## Advanced filters
 
@@ -2469,7 +2469,7 @@ ws.add_chart(chart, "A10")
 wb.save("area.xlsx")
 ```
 
-!["Sample area charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Carea.png)
+!["Sample area charts"](../../Imgs/area.png)
 
 ## 3D Area Charts
 
@@ -2518,7 +2518,7 @@ wb.save("area3D.xlsx")
 
 This produces a simple 3D area chart where the third axis can be used to replace the legend:
 
-!["Sample 3D area chart with a series axis"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Carea3D.png)
+!["Sample 3D area chart with a series axis"](../../Imgs/area3D.png)
 
 
 
@@ -2544,7 +2544,7 @@ When using stacked charts the overlap needs to be set to 100.
 
 If bars are horizontal, x and y axes are reversed.
 
-!["Sample bar charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cbar.png)
+!["Sample bar charts"](../../Imgs/bar.png)
 
 ```
 from openpyxl import Workbook
@@ -2654,7 +2654,7 @@ wb.save("bar3d.xlsx")
 
 This produces a simple 3D bar chart
 
-!["Sample 3D bar chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cbar3D.png)
+!["Sample 3D bar chart"](../../Imgs/bar3D.png)
 
 
 
@@ -2717,7 +2717,7 @@ wb.save("bubble.xlsx")
 
 This will produce a bubble chart with two series and should look something like this:
 
-!["Sample bubble chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cbubble.png)
+!["Sample bubble chart"](../../Imgs/bubble.png)
 
 
 
@@ -2817,7 +2817,7 @@ ws.add_chart(c2, "A61")
 wb.save("line.xlsx")
 ```
 
-!["Sample line charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cline.png)
+!["Sample line charts"](../../Imgs/line.png)
 
 ## 3D Line Charts
 
@@ -2864,7 +2864,7 @@ ws.add_chart(c1, "A10")
 wb.save("line3D.xlsx")
 ```
 
-!["Sample 3D line chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cline3D.png)
+!["Sample 3D line chart"](../../Imgs/line3D.png)
 
 
 
@@ -2917,7 +2917,7 @@ ws.add_chart(chart, "A10")
 wb.save("scatter.xlsx")
 ```
 
-!["Sample scatter chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cscatter.png)
+!["Sample scatter chart"](../../Imgs/scatter.png)
 
 Note
 
@@ -3006,13 +3006,13 @@ ws.add_chart(projected_bar, "A27")
 wb.save("pie.xlsx")
 ```
 
-!["Sample pie chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cpie.png)
+!["Sample pie chart"](../../Imgs/pie.png)
 
 ## Projected Pie Charts
 
 Projected pie charts extract some slices from a pie chart and project them into a second pie or bar chart. This is useful when there are several smaller items in the data series. The chart can be split according to percent, val(ue) or pos(ition). If nothing is set then the application decides which to use. In addition custom splits can be defined.
 
-!["Sample pie chart with projections"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cprojected-pie.png)
+!["Sample pie chart with projections"](../../Imgs/projected-pie.png)
 
 ## 3D Pie Charts
 
@@ -3053,7 +3053,7 @@ ws.add_chart(pie, "D1")
 wb.save("pie3D.xlsx")
 ```
 
-!["Sample 3D pie chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cpie3D.png)
+!["Sample 3D pie chart"](../../Imgs/pie3D.png)
 
 ## Gradient Pie Charts
 
@@ -3126,7 +3126,7 @@ ws.add_chart(pie, "D1")
 wb.save("pie.xlsx")
 ```
 
-!["Sampe gradient pie chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cpie-gradient.png)
+!["Sampe gradient pie chart"](../../Imgs/pie-gradient.png)
 
 
 
@@ -3196,7 +3196,7 @@ ws.add_chart(chart2, "E17")
 wb.save("doughnut.xlsx")
 ```
 
-!["Sample doughnut charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cdoughnut.png)
+!["Sample doughnut charts"](../../Imgs/doughnut.png)
 
 
 
@@ -3254,7 +3254,7 @@ ws.add_chart(chart, "A17")
 wb.save("radar.xlsx")
 ```
 
-!["Sample radar chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cradar.png)
+!["Sample radar chart"](../../Imgs/radar.png)
 
 
 
@@ -3391,7 +3391,7 @@ cache = NumData(pt=pts)
 c1.series[-1].val.numRef.numCache = cache
 ```
 
-!["Sample stock charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cstock.png)
+!["Sample stock charts"](../../Imgs/stock.png)
 
 
 
@@ -3470,7 +3470,7 @@ ws.add_chart(c4, "G29")
 wb.save("surface.xlsx")
 ```
 
-!["Sample surface charts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Csurface.png)
+!["Sample surface charts"](../../Imgs/surface.png)
 
 
 
@@ -3529,7 +3529,7 @@ ws.add_chart(chart2, "C15")
 wb.save("minmax.xlsx")
 ```
 
-!["Sample charts with examples of axis clipping"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Climits_and_scaling_minmax.png)
+!["Sample charts with examples of axis clipping"](../../Imgs/limits_and_scaling_minmax.png)
 
 Note
 
@@ -3611,7 +3611,7 @@ wb.save("log.xlsx")
 
 This produces five charts that look something like this:
 
-!["Sample charts with examples of axis log scaling"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Climits_and_scaling_log.png)
+!["Sample charts with examples of axis log scaling"](../../Imgs/limits_and_scaling_log.png)
 
 The first four charts show the same data unscaled, scaled logarithmically in each axis and in both axes, with the logarithm base set to 10. The final chart shows the same data with both axes scaled, but the base of the logarithm set to `e`.
 
@@ -3684,7 +3684,7 @@ wb.save("orientation.xlsx")
 
 This produces four charts with the axes in each possible combination of orientations that look something like this:
 
-!["Sample charts with different axis orientations"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Climits_and_scaling_orientation.png)
+!["Sample charts with different axis orientations"](../../Imgs/limits_and_scaling_orientation.png)
 
 
 
@@ -3744,7 +3744,7 @@ wb.save("secondary.xlsx")
 
 This produces a combined line and bar chart looking something like this:
 
-!["Sample chart with a second y-axis"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Csecondary.png)
+!["Sample chart with a second y-axis"](../../Imgs/secondary.png)
 
 
 
@@ -3880,7 +3880,7 @@ wb.save("chart_layout.xlsx")
 
 This produces four charts illustrating various possibilities:
 
-!["Different chart and legend layouts"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cchart_layout.png)
+!["Different chart and legend layouts"](../../Imgs/chart_layout.png)
 
 
 
@@ -3940,7 +3940,7 @@ ws.add_chart(c, "C1")
 wb.save("pattern.xlsx")
 ```
 
-!["Sample bar chart with patterned columns"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cpattern.png)
+!["Sample bar chart with patterned columns"](../../Imgs/pattern.png)
 
 
 
@@ -4016,7 +4016,7 @@ ws.add_chart(c1, "D1")
 wb.save("gauge.xlsx")
 ```
 
-!["Sample gauge chart"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cgauge.png)
+!["Sample gauge chart"](../../Imgs/gauge.png)
 
 ---
 
@@ -4056,7 +4056,7 @@ cs.add_chart(chart)
 wb.save("demo.xlsx")
 ```
 
-!["Sample chartsheet"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Cchartsheet.png)
+!["Sample chartsheet"](../../Imgs/chartsheet.png)
 
 By default in Microsoft Excel, charts are chartsheets are designed to fit the page format of the active printer. By default in openpyxl, charts are designed to fit window in which they’re displayed. You can flip between these using the zoomToFit attribute of the active view, typically cs.sheetViews.sheetView[0].zoomToFit
 
@@ -4228,7 +4228,7 @@ highlight = DataLabel(idx=3, showSerName=True, dLblPos="b", txPr=text_props)
 highlight.dLbls.dLbl.append(label)
 ```
 
-!["Highlighting a single value on a single series"](I:%5CWIKI%5Cmy-wiki%5Cdocs%5CImgs%5Chighlighted.png)
+!["Highlighting a single value on a single series"](../../Imgs/highlighted.png)
 
 
 
